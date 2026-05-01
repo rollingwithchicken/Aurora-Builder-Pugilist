@@ -1,0 +1,793 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Pugilist</name>
+		<update version="1.0.0">
+			<file name="class-pugilist.xml" url="https://raw.githubusercontent.com/rmurgasa/Aurora-Builder-Pugilist/main/class-pugilist.xml" />
+		</update>
+	</info>
+
+	<element name="Pugilist" type="Class" source="Sterling Vermin's Pugilist" id="ID_SVAC_CLASS_PUGILIST">
+		<description>
+			<p>Wherever they come from, pugilists live a rough and tumble life that leaves them full of determination and reckless grit. In a fight they channel this strength of character to dig deep and fight off foes with greater strength of numbers, arms, or armor than anyone else would think possible.</p>
+			<h4>SWAGGER FOR DAYS</h4>
+			<p>Pugilists tap into their own inner strength in the form of moxie. This is not mystical energy, but determination forged over a lifetime of hardship and a never-say-die attitude.</p>
+			<h4>LIFE ON THE STREET</h4>
+			<p>Pugilists come from the rougher corners of the world: alleys, fighting rackets, taverns, ghettos, arenas, and any place where fists settle arguments faster than words.</p>
+			<h5 class="caption">QUICK BUILD</h5>
+			<p>You can make a pugilist quickly by making Strength your highest ability score, followed by Constitution. Second, choose the criminal or urchin background.</p>
+			<h3>CLASS FEATURES</h3>
+			<p>As a pugilist, you gain the following class features.</p>
+			<h5 class="caption">HIT POINTS</h5>
+			<ul class="unstyled">
+				<li><strong>Hit Dice:</strong> 1d8 per pugilist level</li>
+				<li><strong>Hit Points at 1st Level:</strong> 8 + your Constitution modifier</li>
+				<li><strong>Hit Points at Higher Levels:</strong> 1d8 (or 5) + your Constitution modifier per pugilist level after 1st</li>
+			</ul>
+			<h5 class="caption">PROFICIENCIES</h5>
+			<ul class="unstyled mb">
+				<li><strong>Armor:</strong> Light armor</li>
+				<li><strong>Weapons:</strong> Simple weapons, improvised weapons, whip, hand crossbow</li>
+				<li><strong>Tools:</strong> Your choice of one artisan’s tools, gaming set, or thieves’ tools</li>
+			</ul>
+			<ul class="unstyled">
+				<li><strong>Saving Throws:</strong> Strength, Constitution</li>
+				<li><strong>Skills:</strong> Choose two from Acrobatics, Athletics, Deception, Intimidation, Perception, Sleight of Hand, and Stealth</li>
+			</ul>
+			<h5 class="caption">THE PUGILIST</h5>
+			<table class="class-features">
+				<thead><tr><td class="col-5">Level</td><td>Fisticuffs</td><td>Moxie Points</td><td class="left">Features</td></tr></thead>
+				<tr><td>1st</td><td>1d6</td><td>—</td><td class="left">Fisticuffs, Iron Chin</td></tr>
+				<tr><td>2nd</td><td>1d6</td><td>2</td><td class="left">Moxie, Street Smart</td></tr>
+				<tr><td>3rd</td><td>1d6</td><td>2</td><td class="left">Bloodied but Unbowed, Fight Club</td></tr>
+				<tr><td>4th</td><td>1d6</td><td>3</td><td class="left">Ability Score Improvement, Dig Deep</td></tr>
+				<tr><td>5th</td><td>1d8</td><td>3</td><td class="left">Extra Attack, Haymaker</td></tr>
+				<tr><td>6th</td><td>1d8</td><td>4</td><td class="left">Fight Club feature, Moxie-Fueled Fists</td></tr>
+				<tr><td>7th</td><td>1d8</td><td>4</td><td class="left">Fancy Footwork, Shake It Off</td></tr>
+				<tr><td>8th</td><td>1d8</td><td>5</td><td class="left">Ability Score Improvement</td></tr>
+				<tr><td>9th</td><td>1d8</td><td>5</td><td class="left">Down but Not Out</td></tr>
+				<tr><td>10th</td><td>1d8</td><td>6</td><td class="left">School of Hard Knocks</td></tr>
+				<tr><td>11th</td><td>1d10</td><td>6</td><td class="left">Fight Club feature</td></tr>
+				<tr><td>12th</td><td>1d10</td><td>7</td><td class="left">Ability Score Improvement</td></tr>
+				<tr><td>13th</td><td>1d10</td><td>7</td><td class="left">Rabble Rouser</td></tr>
+				<tr><td>14th</td><td>1d10</td><td>8</td><td class="left">Unbreakable</td></tr>
+				<tr><td>15th</td><td>1d10</td><td>8</td><td class="left">Herculean</td></tr>
+				<tr><td>16th</td><td>1d10</td><td>9</td><td class="left">Ability Score Improvement</td></tr>
+				<tr><td>17th</td><td>1d12</td><td>9</td><td class="left">Fight Club feature</td></tr>
+				<tr><td>18th</td><td>1d12</td><td>10</td><td class="left">Fighting Spirit</td></tr>
+				<tr><td>19th</td><td>1d12</td><td>10</td><td class="left">Ability Score Improvement</td></tr>
+				<tr><td>20th</td><td>1d12</td><td>12</td><td class="left">Peak Physical Condition</td></tr>
+			</table>
+			<div element="ID_SVAC_CLASS_FEATURE_PUGILIST_FISTICUFFS" />
+			<div element="ID_SVAC_CLASS_FEATURE_PUGILIST_IRON_CHIN" />
+			<div element="ID_SVAC_CLASS_FEATURE_PUGILIST_MOXIE" />
+			<div element="ID_SVAC_CLASS_FEATURE_PUGILIST_STREET_SMART" />
+			<div element="ID_SVAC_CLASS_FEATURE_PUGILIST_BLOODIED_BUT_UNBOWED" />
+			<div element="ID_SVAC_CLASS_FEATURE_PUGILIST_FIGHT_CLUB" />
+			<div element="ID_SVAC_CLASS_FEATURE_PUGILIST_ASI" />
+			<div element="ID_SVAC_CLASS_FEATURE_PUGILIST_DIG_DEEP" />
+			<div element="ID_SVAC_CLASS_FEATURE_PUGILIST_EXTRA_ATTACK" />
+			<div element="ID_SVAC_CLASS_FEATURE_PUGILIST_HAYMAKER" />
+			<div element="ID_SVAC_CLASS_FEATURE_PUGILIST_MOXIE_FUELED_FISTS" />
+			<div element="ID_SVAC_CLASS_FEATURE_PUGILIST_FANCY_FOOTWORK" />
+			<div element="ID_SVAC_CLASS_FEATURE_PUGILIST_SHAKE_IT_OFF" />
+			<div element="ID_SVAC_CLASS_FEATURE_PUGILIST_DOWN_BUT_NOT_OUT" />
+			<div element="ID_SVAC_CLASS_FEATURE_PUGILIST_SCHOOL_OF_HARD_KNOCKS" />
+			<div element="ID_SVAC_CLASS_FEATURE_PUGILIST_RABBLE_ROUSER" />
+			<div element="ID_SVAC_CLASS_FEATURE_PUGILIST_UNBREAKABLE" />
+			<div element="ID_SVAC_CLASS_FEATURE_PUGILIST_HERCULEAN" />
+			<div element="ID_SVAC_CLASS_FEATURE_PUGILIST_FIGHTING_SPIRIT" />
+			<div element="ID_SVAC_CLASS_FEATURE_PUGILIST_PEAK_PHYSICAL_CONDITION" />
+		</description>
+		<sheet display="false">
+			<description>A streetfighter with swagger to spare, powered by moxie and hard-won grit.</description>
+		</sheet>
+		<setters>
+			<set name="short">A streetfighter with swagger to spare, powered by moxie and hard-won grit.</set>
+			<set name="hd">d8</set>
+		</setters>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" requirements="!ID_SVAC_MULTICLASS_PUGILIST" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_SVAC_MULTICLASS_PUGILIST" />
+			<grant type="Proficiency" id="ID_WOTC_PHB_WEAPON_WHIP" requirements="!ID_SVAC_MULTICLASS_PUGILIST" />
+			<grant type="Proficiency" id="ID_WOTC_PHB_WEAPON_CROSSBOW_HAND" requirements="!ID_SVAC_MULTICLASS_PUGILIST" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_STRENGTH" requirements="!ID_SVAC_MULTICLASS_PUGILIST" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CONSTITUTION" requirements="!ID_SVAC_MULTICLASS_PUGILIST" />
+			<select type="Proficiency" name="Tool Proficiency (Pugilist)" supports="Artisan tools||Gaming Set||Thieves' Tools" requirements="!ID_SVAC_MULTICLASS_PUGILIST" />
+			<select type="Proficiency" name="Skill Proficiency (Pugilist)" supports="ID_PROFICIENCY_SKILL_ACROBATICS|ID_PROFICIENCY_SKILL_ATHLETICS|ID_PROFICIENCY_SKILL_DECEPTION|ID_PROFICIENCY_SKILL_INTIMIDATION|ID_PROFICIENCY_SKILL_PERCEPTION|ID_PROFICIENCY_SKILL_SLEIGHTOFHAND|ID_PROFICIENCY_SKILL_STEALTH" number="2" requirements="!ID_SVAC_MULTICLASS_PUGILIST" />
+			<grant type="Class Feature" id="ID_SVAC_CLASS_FEATURE_PUGILIST_FISTICUFFS" level="1" />
+			<grant type="Class Feature" id="ID_SVAC_CLASS_FEATURE_PUGILIST_IRON_CHIN" level="1" />
+			<grant type="Class Feature" id="ID_SVAC_CLASS_FEATURE_PUGILIST_MOXIE" level="2" />
+			<grant type="Class Feature" id="ID_SVAC_CLASS_FEATURE_PUGILIST_STREET_SMART" level="2" />
+			<grant type="Class Feature" id="ID_SVAC_CLASS_FEATURE_PUGILIST_BLOODIED_BUT_UNBOWED" level="3" />
+			<grant type="Class Feature" id="ID_SVAC_CLASS_FEATURE_PUGILIST_FIGHT_CLUB" level="3" />
+			<grant type="Class Feature" id="ID_SVAC_CLASS_FEATURE_PUGILIST_ASI" level="4" />
+			<grant type="Class Feature" id="ID_SVAC_CLASS_FEATURE_PUGILIST_DIG_DEEP" level="4" />
+			<grant type="Class Feature" id="ID_SVAC_CLASS_FEATURE_PUGILIST_EXTRA_ATTACK" level="5" />
+			<grant type="Class Feature" id="ID_SVAC_CLASS_FEATURE_PUGILIST_HAYMAKER" level="5" />
+			<grant type="Class Feature" id="ID_SVAC_CLASS_FEATURE_PUGILIST_MOXIE_FUELED_FISTS" level="6" />
+			<grant type="Class Feature" id="ID_SVAC_CLASS_FEATURE_PUGILIST_FANCY_FOOTWORK" level="7" />
+			<grant type="Class Feature" id="ID_SVAC_CLASS_FEATURE_PUGILIST_SHAKE_IT_OFF" level="7" />
+			<grant type="Class Feature" id="ID_SVAC_CLASS_FEATURE_PUGILIST_DOWN_BUT_NOT_OUT" level="9" />
+			<grant type="Class Feature" id="ID_SVAC_CLASS_FEATURE_PUGILIST_SCHOOL_OF_HARD_KNOCKS" level="10" />
+			<grant type="Class Feature" id="ID_SVAC_CLASS_FEATURE_PUGILIST_RABBLE_ROUSER" level="13" />
+			<grant type="Class Feature" id="ID_SVAC_CLASS_FEATURE_PUGILIST_UNBREAKABLE" level="14" />
+			<grant type="Class Feature" id="ID_SVAC_CLASS_FEATURE_PUGILIST_HERCULEAN" level="15" />
+			<grant type="Class Feature" id="ID_SVAC_CLASS_FEATURE_PUGILIST_FIGHTING_SPIRIT" level="18" />
+			<grant type="Class Feature" id="ID_SVAC_CLASS_FEATURE_PUGILIST_PEAK_PHYSICAL_CONDITION" level="20" />
+		</rules>
+		<multiclass id="ID_SVAC_MULTICLASS_PUGILIST">
+			<prerequisite>Strength 13 and Constitution 13</prerequisite>
+			<requirements>([str:13],[con:13])||ID_INTERNAL_GRANTS_MULTICLASS_UNLOCKER</requirements>
+			<setters>
+				<set name="multiclass proficiencies">Light armor, improvised weapons</set>
+			</setters>
+			<rules>
+				<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
+			</rules>
+		</multiclass>
+	</element>
+	<element name="Arena Royale" type="Archetype" source="Sterling Vermin's Pugilist" id="ID_SVAC_ARCHETYPE_PUGILIST_ARENA_ROYALE">
+		<supports>Pugilist Fight Club</supports>
+		<description>
+			<p>Pugilists in the Arena Royale fight club travel the world earning their keep as equal parts performer and gladiator.</p>
+			<div element="ID_SVAC_ARCHETYPE_FEATURE_PUGILIST_ARENA_ROYALE_BONUS_PROFICIENCY" />
+			<div element="ID_SVAC_ARCHETYPE_FEATURE_PUGILIST_ARENA_ROYALE_PERSONA_LIBRE" />
+			<div element="ID_SVAC_ARCHETYPE_FEATURE_PUGILIST_ARENA_ROYALE_WORK_THE_CROWD" />
+			<div element="ID_SVAC_ARCHETYPE_FEATURE_PUGILIST_ARENA_ROYALE_HIGH_FLYER" />
+			<div element="ID_SVAC_ARCHETYPE_FEATURE_PUGILIST_ARENA_ROYALE_SIGNATURE_MOVE" />
+		</description>
+		<sheet>
+			<description>Arena Royale features: Bonus Proficiency and Persona Libre at 3rd level, Work the Crowd at 6th, High Flyer at 11th, and Signature Move at 17th.</description>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_SVAC_ARCHETYPE_FEATURE_PUGILIST_ARENA_ROYALE_BONUS_PROFICIENCY" level="3" />
+			<grant type="Archetype Feature" id="ID_SVAC_ARCHETYPE_FEATURE_PUGILIST_ARENA_ROYALE_PERSONA_LIBRE" level="3" />
+			<grant type="Archetype Feature" id="ID_SVAC_ARCHETYPE_FEATURE_PUGILIST_ARENA_ROYALE_WORK_THE_CROWD" level="6" />
+			<grant type="Archetype Feature" id="ID_SVAC_ARCHETYPE_FEATURE_PUGILIST_ARENA_ROYALE_HIGH_FLYER" level="11" />
+			<grant type="Archetype Feature" id="ID_SVAC_ARCHETYPE_FEATURE_PUGILIST_ARENA_ROYALE_SIGNATURE_MOVE" level="17" />
+		</rules>
+	</element>
+	<element name="Bloodhound Bruisers" type="Archetype" source="Sterling Vermin's Pugilist" id="ID_SVAC_ARCHETYPE_PUGILIST_BLOODHOUND_BRUISERS">
+		<supports>Pugilist Fight Club</supports>
+		<description>
+			<p>Bloodhound Bruisers are notorious for looking for trouble and finding it every time, using observation and streetwise instinct to defend the downtrodden or serve less savory ends.</p>
+			<div element="ID_SVAC_ARCHETYPE_FEATURE_PUGILIST_BLOODHOUND_BRUISERS_EVER_VIGILANT" />
+			<div element="ID_SVAC_ARCHETYPE_FEATURE_PUGILIST_BLOODHOUND_BRUISERS_DETECTIVE_WORK" />
+			<div element="ID_SVAC_ARCHETYPE_FEATURE_PUGILIST_BLOODHOUND_BRUISERS_SCRAP_LIKE_A_SLEUTH" />
+			<div element="ID_SVAC_ARCHETYPE_FEATURE_PUGILIST_BLOODHOUND_BRUISERS_HEART_OF_THE_CITY" />
+			<div element="ID_SVAC_ARCHETYPE_FEATURE_PUGILIST_BLOODHOUND_BRUISERS_EYES_WIDE_OPEN" />
+		</description>
+		<sheet>
+			<description>Bloodhound Bruisers features: Ever Vigilant and Detective Work at 3rd level, Scrap Like a Sleuth at 6th, Heart of the City at 11th, and Eyes Wide Open at 17th.</description>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_SVAC_ARCHETYPE_FEATURE_PUGILIST_BLOODHOUND_BRUISERS_EVER_VIGILANT" level="3" />
+			<grant type="Archetype Feature" id="ID_SVAC_ARCHETYPE_FEATURE_PUGILIST_BLOODHOUND_BRUISERS_DETECTIVE_WORK" level="3" />
+			<grant type="Archetype Feature" id="ID_SVAC_ARCHETYPE_FEATURE_PUGILIST_BLOODHOUND_BRUISERS_SCRAP_LIKE_A_SLEUTH" level="6" />
+			<grant type="Archetype Feature" id="ID_SVAC_ARCHETYPE_FEATURE_PUGILIST_BLOODHOUND_BRUISERS_HEART_OF_THE_CITY" level="11" />
+			<grant type="Archetype Feature" id="ID_SVAC_ARCHETYPE_FEATURE_PUGILIST_BLOODHOUND_BRUISERS_EYES_WIDE_OPEN" level="17" />
+		</rules>
+	</element>
+	<element name="Dog &amp; Hound" type="Archetype" source="Sterling Vermin's Pugilist" id="ID_SVAC_ARCHETYPE_PUGILIST_DOG_HOUND">
+		<supports>Pugilist Fight Club</supports>
+		<description>
+			<p>Pugilists in the Dog &amp; Hound fight club rely on the best four-legged friend a body could ask for.</p>
+			<div element="ID_SVAC_ARCHETYPE_FEATURE_PUGILIST_DOG_HOUND_BONUS_PROFICIENCY" />
+			<div element="ID_SVAC_ARCHETYPE_FEATURE_PUGILIST_DOG_HOUND_BRAWLERS_BEST_FRIEND" />
+			<div element="ID_SVAC_ARCHETYPE_FEATURE_PUGILIST_DOG_HOUND_MUTT_WITH_MOXIE" />
+			<div element="ID_SVAC_ARCHETYPE_FEATURE_PUGILIST_DOG_HOUND_ARCANINE_BITE" />
+			<div element="ID_SVAC_ARCHETYPE_FEATURE_PUGILIST_DOG_HOUND_COORDINATED_ATTACK" />
+			<div element="ID_SVAC_ARCHETYPE_FEATURE_PUGILIST_DOG_HOUND_HOUNDS_BEST_FRIEND" />
+			<div element="ID_SVAC_ARCHETYPE_FEATURE_PUGILIST_DOG_HOUND_DIRE_HOUND" />
+		</description>
+		<sheet>
+			<description>Dog &amp; Hound features: Bonus Proficiency, Brawler’s Best Friend, and Mutt With Moxie at 3rd level, Arcanine Bite and Coordinated Attack at 6th, Hound’s Best Friend at 11th, and Dire Hound at 17th.</description>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_SVAC_ARCHETYPE_FEATURE_PUGILIST_DOG_HOUND_BONUS_PROFICIENCY" level="3" />
+			<grant type="Archetype Feature" id="ID_SVAC_ARCHETYPE_FEATURE_PUGILIST_DOG_HOUND_BRAWLERS_BEST_FRIEND" level="3" />
+			<grant type="Archetype Feature" id="ID_SVAC_ARCHETYPE_FEATURE_PUGILIST_DOG_HOUND_MUTT_WITH_MOXIE" level="3" />
+			<grant type="Archetype Feature" id="ID_SVAC_ARCHETYPE_FEATURE_PUGILIST_DOG_HOUND_ARCANINE_BITE" level="6" />
+			<grant type="Archetype Feature" id="ID_SVAC_ARCHETYPE_FEATURE_PUGILIST_DOG_HOUND_COORDINATED_ATTACK" level="6" />
+			<grant type="Archetype Feature" id="ID_SVAC_ARCHETYPE_FEATURE_PUGILIST_DOG_HOUND_HOUNDS_BEST_FRIEND" level="11" />
+			<grant type="Archetype Feature" id="ID_SVAC_ARCHETYPE_FEATURE_PUGILIST_DOG_HOUND_DIRE_HOUND" level="17" />
+		</rules>
+	</element>
+	<element name="Piss &amp; Vinegar" type="Archetype" source="Sterling Vermin's Pugilist" id="ID_SVAC_ARCHETYPE_PUGILIST_PISS_VINEGAR">
+		<supports>Pugilist Fight Club</supports>
+		<description>
+			<p>Pugilists in the Piss &amp; Vinegar fight club revel in their reputations as heels, using curses and dirty tricks to provoke and win.</p>
+			<div element="ID_SVAC_ARCHETYPE_FEATURE_PUGILIST_PISS_VINEGAR_BONUS_PROFICIENCY" />
+			<div element="ID_SVAC_ARCHETYPE_FEATURE_PUGILIST_PISS_VINEGAR_SALTY_SALUTE" />
+			<div element="ID_SVAC_ARCHETYPE_FEATURE_PUGILIST_PISS_VINEGAR_DIRTY_TRICKS" />
+			<div element="ID_SVAC_ARCHETYPE_FEATURE_PUGILIST_PISS_VINEGAR_MEAN_OLD_CUSS" />
+			<div element="ID_SVAC_ARCHETYPE_FEATURE_PUGILIST_PISS_VINEGAR_THE_UNCOUTH_ART" />
+		</description>
+		<sheet>
+			<description>Piss &amp; Vinegar features: Bonus Proficiency and Salty Salute at 3rd level, Dirty Tricks at 6th, Mean Old Cuss at 11th, and The Uncouth Art at 17th.</description>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_SVAC_ARCHETYPE_FEATURE_PUGILIST_PISS_VINEGAR_BONUS_PROFICIENCY" level="3" />
+			<grant type="Archetype Feature" id="ID_SVAC_ARCHETYPE_FEATURE_PUGILIST_PISS_VINEGAR_SALTY_SALUTE" level="3" />
+			<grant type="Archetype Feature" id="ID_SVAC_ARCHETYPE_FEATURE_PUGILIST_PISS_VINEGAR_DIRTY_TRICKS" level="6" />
+			<grant type="Archetype Feature" id="ID_SVAC_ARCHETYPE_FEATURE_PUGILIST_PISS_VINEGAR_MEAN_OLD_CUSS" level="11" />
+			<grant type="Archetype Feature" id="ID_SVAC_ARCHETYPE_FEATURE_PUGILIST_PISS_VINEGAR_THE_UNCOUTH_ART" level="17" />
+		</rules>
+	</element>
+	<element name="The Squared Circle" type="Archetype" source="Sterling Vermin's Pugilist" id="ID_SVAC_ARCHETYPE_PUGILIST_SQUARED_CIRCLE">
+		<supports>Pugilist Fight Club</supports>
+		<description>
+			<p>Pugilists who fight in the Squared Circle know you do not have to knock an opponent senseless to get them to submit, though they often do both.</p>
+			<div element="ID_SVAC_ARCHETYPE_FEATURE_PUGILIST_SQUARED_CIRCLE_GROUNDWORK" />
+			<div element="ID_SVAC_ARCHETYPE_FEATURE_PUGILIST_SQUARED_CIRCLE_MEAT_SHIELD" />
+			<div element="ID_SVAC_ARCHETYPE_FEATURE_PUGILIST_SQUARED_CIRCLE_HEAVYWEIGHT" />
+			<div element="ID_SVAC_ARCHETYPE_FEATURE_PUGILIST_SQUARED_CIRCLE_CLEAN_FINISH" />
+		</description>
+		<sheet>
+			<description>The Squared Circle features: Groundwork at 3rd level, Meat Shield at 6th, Heavyweight at 11th, and Clean Finish at 17th.</description>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_SVAC_ARCHETYPE_FEATURE_PUGILIST_SQUARED_CIRCLE_GROUNDWORK" level="3" />
+			<grant type="Archetype Feature" id="ID_SVAC_ARCHETYPE_FEATURE_PUGILIST_SQUARED_CIRCLE_MEAT_SHIELD" level="6" />
+			<grant type="Archetype Feature" id="ID_SVAC_ARCHETYPE_FEATURE_PUGILIST_SQUARED_CIRCLE_HEAVYWEIGHT" level="11" />
+			<grant type="Archetype Feature" id="ID_SVAC_ARCHETYPE_FEATURE_PUGILIST_SQUARED_CIRCLE_CLEAN_FINISH" level="17" />
+		</rules>
+	</element>
+	<element name="The Sweet Science" type="Archetype" source="Sterling Vermin's Pugilist" id="ID_SVAC_ARCHETYPE_PUGILIST_SWEET_SCIENCE">
+		<supports>Pugilist Fight Club</supports>
+		<description>
+			<p>Pugilists who practice the Sweet Science hit hard, fast, and often.</p>
+			<div element="ID_SVAC_ARCHETYPE_FEATURE_PUGILIST_SWEET_SCIENCE_CROSS_COUNTER" />
+			<div element="ID_SVAC_ARCHETYPE_FEATURE_PUGILIST_SWEET_SCIENCE_ONE_TWO_THREE_FLOOR" />
+			<div element="ID_SVAC_ARCHETYPE_FEATURE_PUGILIST_SWEET_SCIENCE_FLOAT_STING" />
+			<div element="ID_SVAC_ARCHETYPE_FEATURE_PUGILIST_SWEET_SCIENCE_KNOCK_OUT" />
+		</description>
+		<sheet>
+			<description>The Sweet Science features: Cross Counter at 3rd level, One, Two, Three, Floor at 6th, Float Like a Butterfly, Sting Like a Bee at 11th, and Knock Out at 17th.</description>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_SVAC_ARCHETYPE_FEATURE_PUGILIST_SWEET_SCIENCE_CROSS_COUNTER" level="3" />
+			<grant type="Archetype Feature" id="ID_SVAC_ARCHETYPE_FEATURE_PUGILIST_SWEET_SCIENCE_ONE_TWO_THREE_FLOOR" level="6" />
+			<grant type="Archetype Feature" id="ID_SVAC_ARCHETYPE_FEATURE_PUGILIST_SWEET_SCIENCE_FLOAT_STING" level="11" />
+			<grant type="Archetype Feature" id="ID_SVAC_ARCHETYPE_FEATURE_PUGILIST_SWEET_SCIENCE_KNOCK_OUT" level="17" />
+		</rules>
+	</element>
+	<element name="Fisticuffs" type="Class Feature" source="Sterling Vermin's Pugilist" id="ID_SVAC_CLASS_FEATURE_PUGILIST_FISTICUFFS">
+		<description>
+			<p>At 1st level, your years of fighting in back alleys and taverns have given you mastery over combat styles that use unarmed strikes and pugilist weapons, which are simple melee weapons without the two-handed property, whips, and improvised weapons. You may not use the finesse property of a weapon while using it as a pugilist weapon.</p>
+			<p>You gain the following benefits while you are unarmed or using only pugilist weapons and you are wearing light or no armor and not using a shield:</p>
+			<ul>
+				<li>You can roll your Fisticuffs die in place of the normal damage of your unarmed strike or pugilist weapon.</li>
+				<li>When you use the Attack action with an unarmed strike or pugilist weapon on your turn, you can make one unarmed strike or grapple as a bonus action.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>Your Fisticuffs die is 1d{{pugilist:fisticuffs:dice}}. While unarmed or using only pugilist weapons, wearing light or no armor, and not using a shield, you can use this die for your unarmed strike or pugilist weapon damage. When you take the Attack action with an unarmed strike or pugilist weapon, you can make one unarmed strike or grapple as a bonus action.</description>
+		</sheet>
+		<rules>
+			<stat name="pugilist:fisticuffs:dice" value="6" bonus="fisticuffs" />
+			<stat name="pugilist:fisticuffs:dice" value="8" bonus="fisticuffs" level="5" />
+			<stat name="pugilist:fisticuffs:dice" value="10" bonus="fisticuffs" level="11" />
+			<stat name="pugilist:fisticuffs:dice" value="12" bonus="fisticuffs" level="17" />
+		</rules>
+	</element>
+	<element name="Iron Chin" type="Class Feature" source="Sterling Vermin's Pugilist" id="ID_SVAC_CLASS_FEATURE_PUGILIST_IRON_CHIN">
+		<description>
+			<p>Beginning at 1st level, you can use Constitution instead of Dexterity to determine your Armor Class when you are wearing light or no armor and are not using a shield.</p>
+		</description>
+		<sheet>
+			<description>Use Constitution instead of Dexterity to determine your AC while wearing light or no armor and not using a shield. With no armor, your AC is {{ac:iron chin pugilist}}. With light armor, substitute CON for DEX in the armor calculation.</description>
+		</sheet>
+		<rules>
+			<stat name="ac:iron chin pugilist:base" value="10" />
+			<stat name="ac:iron chin pugilist:constitution" value="constitution:modifier" />
+			<stat name="ac:iron chin pugilist" value="ac:iron chin pugilist:base" />
+			<stat name="ac:iron chin pugilist" value="ac:iron chin pugilist:constitution" />
+			<stat name="ac:calculation" value="ac:iron chin pugilist" bonus="calculation" equipped="[armor:none],[shield:none]" alt="Iron Chin (No Armor)" />
+		</rules>
+	</element>
+	<element name="Moxie" type="Class Feature" source="Sterling Vermin's Pugilist" id="ID_SVAC_CLASS_FEATURE_PUGILIST_MOXIE">
+		<description>
+			<p>Starting at 2nd level, your experience laying the beatdown on others has given you moxie you can channel in battle. Your pugilist level determines the maximum number of moxie points you have, as shown in the Pugilist table.</p>
+			<p>You can spend these points to fuel various moxie features. You start knowing Brace Up, The Old One-Two, and Stick and Move. You regain all expended moxie points when you complete a short or long rest.</p>
+		</description>
+		<sheet>
+			<description>You have {{pugilist:moxie}} moxie points, regained when you complete a short or long rest. You can spend moxie on Brace Up, The Old One-Two, Stick and Move, and other features you gain later.</description>
+		</sheet>
+		<rules>
+			<stat name="pugilist:moxie" value="2" level="2" />
+			<stat name="pugilist:moxie" value="1" level="4" />
+			<stat name="pugilist:moxie" value="1" level="6" />
+			<stat name="pugilist:moxie" value="1" level="8" />
+			<stat name="pugilist:moxie" value="1" level="10" />
+			<stat name="pugilist:moxie" value="1" level="12" />
+			<stat name="pugilist:moxie" value="1" level="14" />
+			<stat name="pugilist:moxie" value="1" level="16" />
+			<stat name="pugilist:moxie" value="1" level="18" />
+			<stat name="pugilist:moxie" value="2" level="20" />
+			<grant type="Class Feature" id="ID_SVAC_CLASS_FEATURE_PUGILIST_MOXIE_BRACE_UP" level="2" />
+			<grant type="Class Feature" id="ID_SVAC_CLASS_FEATURE_PUGILIST_MOXIE_THE_OLD_ONE_TWO" level="2" />
+			<grant type="Class Feature" id="ID_SVAC_CLASS_FEATURE_PUGILIST_MOXIE_STICK_AND_MOVE" level="2" />
+		</rules>
+	</element>
+	<element name="Brace Up" type="Class Feature" source="Sterling Vermin's Pugilist" id="ID_SVAC_CLASS_FEATURE_PUGILIST_MOXIE_BRACE_UP">
+		<description>
+			<p>You can use a bonus action and spend 1 moxie point to brace for attacks. Roll your Fisticuffs die + your pugilist level + your Constitution modifier and gain that many temporary hit points.</p>
+		</description>
+		<sheet action="Bonus Action" usage="1 Moxie">
+			<description>Roll 1d{{pugilist:fisticuffs:dice}}+{{pugilist:brace up bonus}} and gain that many temporary hit points.</description>
+		</sheet>
+		<rules>
+			<stat name="pugilist:brace up bonus" value="level:pugilist" />
+			<stat name="pugilist:brace up bonus" value="constitution:modifier" />
+		</rules>
+	</element>
+	<element name="The Old One-Two" type="Class Feature" source="Sterling Vermin's Pugilist" id="ID_SVAC_CLASS_FEATURE_PUGILIST_MOXIE_THE_OLD_ONE_TWO">
+		<description>
+			<p>Immediately after you take the Attack action on your turn, you can spend 1 moxie point to make two unarmed strikes as a bonus action.</p>
+		</description>
+		<sheet action="Bonus Action" usage="1 Moxie">
+			<description>Immediately after you take the Attack action on your turn, spend 1 moxie point to make two unarmed strikes.</description>
+		</sheet>
+	</element>
+	<element name="Stick and Move" type="Class Feature" source="Sterling Vermin's Pugilist" id="ID_SVAC_CLASS_FEATURE_PUGILIST_MOXIE_STICK_AND_MOVE">
+		<description>
+			<p>You can use a bonus action and expend 1 moxie point to make a shove attack or take the Dash action.</p>
+		</description>
+		<sheet action="Bonus Action" usage="1 Moxie">
+			<description>Spend 1 moxie point to make a shove attack or take the Dash action.</description>
+		</sheet>
+	</element>
+	<element name="Street Smart" type="Class Feature" source="Sterling Vermin's Pugilist" id="ID_SVAC_CLASS_FEATURE_PUGILIST_STREET_SMART">
+		<description>
+			<p>Beginning at 2nd level, carousing, shadowboxing, and sparring all count as light activity for the purposes of resting for you. Additionally, once you have caroused in a settlement for 8 hours or more, you know all public locations in the city as if you were born and raised there and you cannot be lost by non-magical means while within the city.</p>
+		</description>
+		<sheet>
+			<description>Carousing, shadowboxing, and sparring count as light activity for resting. After carousing in a settlement for 8 hours or more, you know all public locations there and cannot be lost by non-magical means while within the city.</description>
+		</sheet>
+	</element>
+	<element name="Bloodied but Unbowed" type="Class Feature" source="Sterling Vermin's Pugilist" id="ID_SVAC_CLASS_FEATURE_PUGILIST_BLOODIED_BUT_UNBOWED">
+		<description>
+			<p>Starting at 3rd level, when you take damage that reduces you to half your maximum hit points or less, you can use your reaction to gain temporary hit points equal to your pugilist level + your Constitution modifier and regain all expended moxie points. You cannot use this feature again until you finish a short or long rest.</p>
+		</description>
+		<sheet action="Reaction" usage="1/Short Rest">
+			<description>When damage reduces you to half your maximum hit points or less, use your reaction to gain {{pugilist:bloodied but unbowed temp hp}} temporary hit points and regain all expended moxie points.</description>
+		</sheet>
+		<rules>
+			<stat name="pugilist:bloodied but unbowed temp hp" value="level:pugilist" />
+			<stat name="pugilist:bloodied but unbowed temp hp" value="constitution:modifier" />
+		</rules>
+	</element>
+	<element name="Fight Club" type="Class Feature" source="Sterling Vermin's Pugilist" id="ID_SVAC_CLASS_FEATURE_PUGILIST_FIGHT_CLUB">
+		<description>
+			<p>Starting at 3rd level, you choose a fight club that best exemplifies your style: Arena Royale, Bloodhound Bruisers, Dog &amp; Hound, Piss &amp; Vinegar, the Squared Circle, or the Sweet Science. Your fight club grants you features at 3rd level and again at 6th, 11th, and 17th level.</p>
+		</description>
+		<sheet>
+			<description>Choose a fight club. It grants features at 3rd, 6th, 11th, and 17th level.</description>
+		</sheet>
+		<rules>
+			<select type="Archetype" name="Fight Club" supports="Pugilist Fight Club" level="3" />
+		</rules>
+	</element>
+	<element name="Ability Score Improvement" type="Class Feature" source="Sterling Vermin's Pugilist" id="ID_SVAC_CLASS_FEATURE_PUGILIST_ASI">
+		<compendium display="false" />
+		<description>
+			<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or two ability scores by 1. You cannot increase an ability score above 20 using this feature.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Class Feature" name="Improvement Option (Pugilist 4)" supports="Improvement Option,Pugilist,4" level="4" />
+			<select type="Class Feature" name="Improvement Option (Pugilist 8)" supports="Improvement Option,Pugilist,8" level="8" />
+			<select type="Class Feature" name="Improvement Option (Pugilist 12)" supports="Improvement Option,Pugilist,12" level="12" />
+			<select type="Class Feature" name="Improvement Option (Pugilist 16)" supports="Improvement Option,Pugilist,16" level="16" />
+			<select type="Class Feature" name="Improvement Option (Pugilist 19)" supports="Improvement Option,Pugilist,19" level="19" />
+		</rules>
+	</element>
+	<element name="Dig Deep" type="Class Feature" source="Sterling Vermin's Pugilist" id="ID_SVAC_CLASS_FEATURE_PUGILIST_DIG_DEEP">
+		<description>
+			<p>Starting at 4th level, you discover a strength inside you that can’t be broken. As a bonus action, you gain resistance to bludgeoning, piercing, and slashing damage for one minute. At the end of that minute you gain a level of exhaustion.</p>
+		</description>
+		<sheet action="Bonus Action">
+			<description>Gain resistance to bludgeoning, piercing, and slashing damage for 1 minute. At the end of that minute, you gain one level of exhaustion.</description>
+		</sheet>
+	</element>
+	<element name="Extra Attack" type="Class Feature" source="Sterling Vermin's Pugilist" id="ID_SVAC_CLASS_FEATURE_PUGILIST_EXTRA_ATTACK">
+		<description>
+			<p>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</p>
+		</description>
+		<sheet>
+			<description>You can attack twice, instead of once, whenever you take the Attack action on your turn.</description>
+		</sheet>
+		<rules>
+			<stat name="extra attack:count" value="2" level="5" bonus="extra attack" />
+		</rules>
+	</element>
+	<element name="Haymaker" type="Class Feature" source="Sterling Vermin's Pugilist" id="ID_SVAC_CLASS_FEATURE_PUGILIST_HAYMAKER">
+		<description>
+			<p>Starting at 5th level, before you make an attack roll with an unarmed strike or pugilist melee weapon attack that does not already have disadvantage, you can declare you are swinging wild haymakers. You make all attack rolls until the end of this turn with disadvantage and when you deal damage you do not roll, but use the maximum die result instead.</p>
+		</description>
+		<sheet>
+			<description>Before an unarmed strike or pugilist melee weapon attack that does not already have disadvantage, you can declare haymakers. Your attack rolls until the end of this turn have disadvantage, and when you deal damage you use the maximum die result instead of rolling.</description>
+		</sheet>
+	</element>
+	<element name="Moxie-Fueled Fists" type="Class Feature" source="Sterling Vermin's Pugilist" id="ID_SVAC_CLASS_FEATURE_PUGILIST_MOXIE_FUELED_FISTS">
+		<description>
+			<p>Starting at 6th level, your unarmed strikes count as magical for the purpose of overcoming resistance and immunity to non-magical attacks and damage.</p>
+		</description>
+		<sheet>
+			<description>Your unarmed strikes count as magical for overcoming resistance and immunity to non-magical attacks and damage.</description>
+		</sheet>
+	</element>
+	<element name="Fancy Footwork" type="Class Feature" source="Sterling Vermin's Pugilist" id="ID_SVAC_CLASS_FEATURE_PUGILIST_FANCY_FOOTWORK">
+		<description>
+			<p>At 7th level, you gain proficiency in Dexterity saving throws.</p>
+		</description>
+		<sheet>
+			<description>You gain proficiency in Dexterity saving throws.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_DEXTERITY" />
+		</rules>
+	</element>
+	<element name="Shake It Off" type="Class Feature" source="Sterling Vermin's Pugilist" id="ID_SVAC_CLASS_FEATURE_PUGILIST_SHAKE_IT_OFF">
+		<description>
+			<p>Starting at 7th level, you can use your action to end one effect on yourself that is causing you to be charmed or frightened.</p>
+		</description>
+		<sheet action="Action">
+			<description>End one effect on yourself that is causing you to be charmed or frightened.</description>
+		</sheet>
+	</element>
+	<element name="Down but Not Out" type="Class Feature" source="Sterling Vermin's Pugilist" id="ID_SVAC_CLASS_FEATURE_PUGILIST_DOWN_BUT_NOT_OUT">
+		<description>
+			<p>At 9th level, when you use your Bloodied but Unbowed feature you can choose to also use this feature. If you do, you add your proficiency bonus to your damage with unarmed attacks and pugilist weapons for the next minute. You can use this feature again after you complete a long rest.</p>
+		</description>
+		<sheet usage="1/Long Rest">
+			<description>When you use Bloodied but Unbowed, you can add your proficiency bonus to damage with unarmed attacks and pugilist weapons for 1 minute.</description>
+		</sheet>
+	</element>
+	<element name="School of Hard Knocks" type="Class Feature" source="Sterling Vermin's Pugilist" id="ID_SVAC_CLASS_FEATURE_PUGILIST_SCHOOL_OF_HARD_KNOCKS">
+		<description>
+			<p>By 10th level, you have resistance to psychic damage and gain advantage on saving throws against effects that would make you stunned or unconscious.</p>
+		</description>
+		<sheet>
+			<description>You have resistance to psychic damage and advantage on saving throws against effects that would make you stunned or unconscious.</description>
+		</sheet>
+	</element>
+	<element name="Rabble Rouser" type="Class Feature" source="Sterling Vermin's Pugilist" id="ID_SVAC_CLASS_FEATURE_PUGILIST_RABBLE_ROUSER">
+		<description>
+			<p>Starting at 13th level, once you have taken a long rest by carousing in a settlement, you gain advantage on all Charisma (Persuasion) and Charisma (Intimidation) checks made against the people who live there.</p>
+		</description>
+		<sheet>
+			<description>After taking a long rest by carousing in a settlement, you gain advantage on Charisma (Persuasion) and Charisma (Intimidation) checks made against the people who live there.</description>
+		</sheet>
+	</element>
+	<element name="Unbreakable" type="Class Feature" source="Sterling Vermin's Pugilist" id="ID_SVAC_CLASS_FEATURE_PUGILIST_UNBREAKABLE">
+		<description>
+			<p>Starting at 14th level, you gain advantage on Strength, Dexterity, and Constitution saving throws. Additionally, whenever you make a saving throw and fail, you can spend 1 moxie point to reroll it and take the second result.</p>
+		</description>
+		<sheet>
+			<description>You have advantage on Strength, Dexterity, and Constitution saving throws. When you fail a saving throw, you can spend 1 moxie point to reroll it and take the second result.</description>
+		</sheet>
+	</element>
+	<element name="Herculean" type="Class Feature" source="Sterling Vermin's Pugilist" id="ID_SVAC_CLASS_FEATURE_PUGILIST_HERCULEAN">
+		<description>
+			<p>At 15th level, your carrying capacity is doubled, and when you deal damage with a melee weapon or unarmed strike to an inanimate object that damage is doubled. Your standing jump distance is the same as your running start jump distance.</p>
+		</description>
+		<sheet>
+			<description>Your carrying capacity is doubled. Damage you deal to inanimate objects with melee weapons or unarmed strikes is doubled. Your standing jump distance is the same as your running start jump distance.</description>
+		</sheet>
+	</element>
+	<element name="Fighting Spirit" type="Class Feature" source="Sterling Vermin's Pugilist" id="ID_SVAC_CLASS_FEATURE_PUGILIST_FIGHTING_SPIRIT">
+		<description>
+			<p>Starting at 18th level, when you have 4 levels of exhaustion or fewer and are reduced to 0 hit points, you regain half your maximum hit points, half your maximum moxie points, and gain a level of exhaustion. You cannot use this feature again until you finish a long rest.</p>
+		</description>
+		<sheet usage="1/Long Rest">
+			<description>When you have 4 levels of exhaustion or fewer and are reduced to 0 hp, regain half your maximum hp and half your maximum moxie points, then gain one level of exhaustion.</description>
+		</sheet>
+	</element>
+	<element name="Peak Physical Condition" type="Class Feature" source="Sterling Vermin's Pugilist" id="ID_SVAC_CLASS_FEATURE_PUGILIST_PEAK_PHYSICAL_CONDITION">
+		<description>
+			<p>At 20th level, your Strength and Constitution ability scores increase by 2 to a maximum of 22. Additionally, when you take a long rest you recover 2 levels of exhaustion instead of 1 and regain all expended hit dice instead of half your expended hit dice.</p>
+		</description>
+		<sheet>
+			<description>Your Strength and Constitution scores increase by 2, to a maximum of 22. When you take a long rest, you recover 2 levels of exhaustion instead of 1 and regain all expended hit dice instead of half.</description>
+		</sheet>
+		<rules>
+			<stat name="strength" value="2" alt="Peak Physical Condition" />
+			<stat name="constitution" value="2" alt="Peak Physical Condition" />
+			<stat name="strength:max:extra" value="2" bonus="base" />
+			<stat name="constitution:max:extra" value="2" bonus="base" />
+		</rules>
+	</element>
+	<element name="Bonus Proficiency" type="Archetype Feature" source="Sterling Vermin's Pugilist" id="ID_SVAC_ARCHETYPE_FEATURE_PUGILIST_ARENA_ROYALE_BONUS_PROFICIENCY">
+		<description>
+			<p>Starting when you choose this Fight Club at 3rd level, you gain proficiency in the Performance skill if you do not have it already. If you do, you gain proficiency in your choice of Intimidation or Persuasion.</p>
+		</description>
+		<sheet>
+			<description>You gain proficiency in Performance. If you already have it, choose Intimidation or Persuasion instead.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERFORMANCE" />
+		</rules>
+	</element>
+	<element name="Persona Libre" type="Archetype Feature" source="Sterling Vermin's Pugilist" id="ID_SVAC_ARCHETYPE_FEATURE_PUGILIST_ARENA_ROYALE_PERSONA_LIBRE">
+		<description>
+			<p>Also at 3rd level, you create an alternate persona that you can adopt or discard as a bonus action on your turn. Unless you tell a creature, or the creature sees you adopt your persona, they do not know you and the adopted persona are the same person.</p>
+			<p>You have a pool of persona points equal to 3 + your Charisma modifier (minimum 1). While you have adopted your persona, you can spend persona points instead of moxie points, and before you make a Charisma ability check you can spend a persona point to add your Strength modifier to the result. You regain all expended persona points when you finish a long rest.</p>
+		</description>
+		<sheet action="Bonus Action">
+			<description>As a bonus action, adopt or discard your alternate persona. While adopted, you can spend persona points instead of moxie points and can spend a persona point before a Charisma check to add your STR modifier. Persona points: {{pugilist:persona points}}/Long Rest (minimum 1).</description>
+		</sheet>
+		<rules>
+			<stat name="pugilist:persona points" value="3" />
+			<stat name="pugilist:persona points" value="charisma:modifier" />
+		</rules>
+	</element>
+	<element name="Work the Crowd" type="Archetype Feature" source="Sterling Vermin's Pugilist" id="ID_SVAC_ARCHETYPE_FEATURE_PUGILIST_ARENA_ROYALE_WORK_THE_CROWD">
+		<description>
+			<p>At 6th level, while you have adopted your alternate persona, you can use your action to inspire fear or adoration in those nearby. Creatures within 30 feet who can see you must succeed on a Wisdom saving throw or be charmed, if you chose adoration, or frightened, if you chose fear, for 1 minute. Each time a creature takes damage from you or one of your allies it can repeat the save, ending the effect on a success. You can use this feature again after you finish a long rest.</p>
+		</description>
+		<sheet action="Action" usage="1/Long Rest">
+			<description>While your persona is adopted, creatures within 30 ft. who can see you must make a WIS save against DC {{pugilist:arena royale:dc}} or be charmed or frightened for 1 minute. Damaged creatures repeat the save.</description>
+		</sheet>
+		<rules>
+			<stat name="pugilist:arena royale:dc" value="8" />
+			<stat name="pugilist:arena royale:dc" value="proficiency" />
+			<stat name="pugilist:arena royale:dc" value="strength:modifier" />
+		</rules>
+	</element>
+	<element name="High Flyer" type="Archetype Feature" source="Sterling Vermin's Pugilist" id="ID_SVAC_ARCHETYPE_FEATURE_PUGILIST_ARENA_ROYALE_HIGH_FLYER">
+		<description>
+			<p>Starting at 11th level, your base movement increases by 10 feet, your jump distance is doubled, and you can use a bonus action on your turn to take the Dash action.</p>
+		</description>
+		<sheet action="Bonus Action">
+			<description>Your base movement increases by 10 feet, your jump distance is doubled, and you can Dash as a bonus action.</description>
+		</sheet>
+		<rules>
+			<stat name="innate speed:misc" value="10" requirements="[innate speed:1]" />
+			<stat name="innate speed:climb:misc" value="10" requirements="[innate speed:climb:1]" />
+			<stat name="innate speed:fly:misc" value="10" requirements="[innate speed:fly:1]" />
+			<stat name="innate speed:swim:misc" value="10" requirements="[innate speed:swim:1]" />
+			<stat name="innate speed:burrow:misc" value="10" requirements="[innate speed:burrow:1]" />
+		</rules>
+	</element>
+	<element name="Signature Move" type="Archetype Feature" source="Sterling Vermin's Pugilist" id="ID_SVAC_ARCHETYPE_FEATURE_PUGILIST_ARENA_ROYALE_SIGNATURE_MOVE">
+		<description>
+			<p>Starting at 17th level, you create a signature move that you can use while you have adopted your alternate persona. You can replace one unarmed attack or pugilist weapon attack on your turn with this signature move. When you do, you can jump in any direction up to your movement speed, make an attack roll with advantage against a creature in your reach and, if you hit, the attack is a critical and the creature is stunned until the end of your next turn. If you hit, you must finish a long rest before you can use it again. If you miss, you regain the use after 1 minute.</p>
+		</description>
+		<sheet>
+			<description>While your persona is adopted, replace one unarmed or pugilist weapon attack with your signature move. Jump up to your speed, attack with advantage, and on a hit the attack is critical and stuns until the end of your next turn. Hit: recharge on long rest. Miss: recharge after 1 minute.</description>
+		</sheet>
+	</element>
+	<element name="Ever Vigilant" type="Archetype Feature" source="Sterling Vermin's Pugilist" id="ID_SVAC_ARCHETYPE_FEATURE_PUGILIST_BLOODHOUND_BRUISERS_EVER_VIGILANT">
+		<description>
+			<p>When you choose this fight club at 3rd level, you have advantage on initiative rolls. During the first round of combat, you have advantage on attack rolls against creatures who haven’t acted yet.</p>
+		</description>
+		<sheet>
+			<description>You have advantage on initiative rolls. During the first round of combat, you have advantage on attack rolls against creatures who have not acted yet.</description>
+		</sheet>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_INITIATIVE_ADVANTAGE" />
+		</rules>
+	</element>
+	<element name="Detective Work" type="Archetype Feature" source="Sterling Vermin's Pugilist" id="ID_SVAC_ARCHETYPE_FEATURE_PUGILIST_BLOODHOUND_BRUISERS_DETECTIVE_WORK">
+		<description>
+			<p>Also at 3rd level, you gain proficiency with two of the following skills of your choice: Insight, Investigation, or Perception. In addition, when you make an Intelligence (Investigation), Wisdom (Insight), or Wisdom (Perception) check, you can spend 1 moxie point to gain advantage on that ability check.</p>
+		</description>
+		<sheet>
+			<description>Choose two: Insight, Investigation, or Perception. Spend 1 moxie to gain advantage on an Investigation, Insight, or Perception check.</description>
+		</sheet>
+		<rules>
+			<select type="Proficiency" name="Skill Proficiency, Detective Work" supports="ID_PROFICIENCY_SKILL_INSIGHT|ID_PROFICIENCY_SKILL_INVESTIGATION|ID_PROFICIENCY_SKILL_PERCEPTION" number="2" />
+		</rules>
+	</element>
+	<element name="Scrap Like a Sleuth" type="Archetype Feature" source="Sterling Vermin's Pugilist" id="ID_SVAC_ARCHETYPE_FEATURE_PUGILIST_BLOODHOUND_BRUISERS_SCRAP_LIKE_A_SLEUTH">
+		<description>
+			<p>At 6th level, you can use a bonus action and expend 2 moxie points to hone in on the idiosyncrasies and bad habits of an enemy you can see within 30 feet. For 1 minute or until you use this feature again, you have advantage on weapon attacks against that creature and add your proficiency bonus to your AC against attacks made by that creature.</p>
+		</description>
+		<sheet action="Bonus Action" usage="2 Moxie">
+			<description>Choose an enemy you can see within 30 ft. For 1 minute, you have advantage on weapon attacks against it and add your proficiency bonus to your AC against attacks made by it.</description>
+		</sheet>
+	</element>
+	<element name="Heart of the City" type="Archetype Feature" source="Sterling Vermin's Pugilist" id="ID_SVAC_ARCHETYPE_FEATURE_PUGILIST_BLOODHOUND_BRUISERS_HEART_OF_THE_CITY">
+		<description>
+			<p>Starting at 11th level, when you take a long rest in a settlement, you can choose to become familiar with that settlement. While in your familiar settlement, you cannot be surprised, add your proficiency bonus to initiative, have darkvision 120 feet, double your proficiency bonus for proficient Insight, Investigation, or Perception checks, cannot be lost by any means, and can travel between any two points in the settlement twice as fast when not in combat.</p>
+		</description>
+		<sheet>
+			<description>After a long rest in a settlement, you can make it your familiar settlement. There, you cannot be surprised, add proficiency to initiative, have darkvision 120 ft., double proficiency for proficient Insight, Investigation, and Perception checks, cannot be lost, and travel twice as fast outside combat.</description>
+		</sheet>
+	</element>
+	<element name="Eyes Wide Open" type="Archetype Feature" source="Sterling Vermin's Pugilist" id="ID_SVAC_ARCHETYPE_FEATURE_PUGILIST_BLOODHOUND_BRUISERS_EYES_WIDE_OPEN">
+		<description>
+			<p>Starting at 17th level, you can use a bonus action and spend 1 moxie point to open your senses to your surroundings for 1 minute. During this time, you have advantage on saving throws against being blinded or deafened and have truesight out to 30 feet.</p>
+		</description>
+		<sheet action="Bonus Action" usage="1 Moxie">
+			<description>For 1 minute, you have advantage on saves against being blinded or deafened and have truesight out to 30 ft.</description>
+		</sheet>
+	</element>
+	<element name="Bonus Proficiency" type="Archetype Feature" source="Sterling Vermin's Pugilist" id="ID_SVAC_ARCHETYPE_FEATURE_PUGILIST_DOG_HOUND_BONUS_PROFICIENCY">
+		<description>
+			<p>When you choose this fight club at 3rd level, you gain proficiency with Animal Handling if you don’t already have it. If you do, you gain proficiency in your choice of Perception or Survival.</p>
+		</description>
+		<sheet>
+			<description>You gain proficiency in Animal Handling. If you already have it, choose Perception or Survival instead.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ANIMALHANDLING" />
+		</rules>
+	</element>
+	<element name="Brawler’s Best Friend" type="Archetype Feature" source="Sterling Vermin's Pugilist" id="ID_SVAC_ARCHETYPE_FEATURE_PUGILIST_DOG_HOUND_BRAWLERS_BEST_FRIEND">
+		<description>
+			<p>Also at 3rd level, you gain a hound that accompanies you and fights alongside you. Your hound uses the wolf stat block. Add your proficiency bonus to your hound’s AC, saving throws, attack rolls, and damage rolls. For each pugilist level you gain after 3rd, your hound gains an additional d8 Hit Die and increases its hit points accordingly.</p>
+			<p>You can use a bonus action on each of your turns to verbally command your hound to take the Attack, Dash, Disengage, Dodge, or Help action that turn. It acts on its own if you are incapacitated or absent. If your hound dies, you can obtain a new one by spending 8 hours bonding with a non-hostile canine animal.</p>
+		</description>
+		<sheet action="Bonus Action">
+			<description>You gain a hound using the wolf stat block. Add your proficiency bonus to its AC, saves, attack rolls, and damage rolls. It gains one extra d8 Hit Die for each pugilist level after 3rd. Command it as a bonus action to Attack, Dash, Disengage, Dodge, or Help.</description>
+		</sheet>
+	</element>
+	<element name="Mutt With Moxie" type="Archetype Feature" source="Sterling Vermin's Pugilist" id="ID_SVAC_ARCHETYPE_FEATURE_PUGILIST_DOG_HOUND_MUTT_WITH_MOXIE">
+		<description>
+			<p>At 3rd level, when you use certain moxie abilities, your hound gains a benefit as well. Brace Up gives your hound the same temporary hit points. The Old One-Two can let your hound make one or both attacks instead of you. Stick and Move can let your hound take the Dash action.</p>
+		</description>
+		<sheet>
+			<description>Brace Up: your hound gains the same temporary hit points. The Old One-Two: your hound can make one or both attacks instead of you. Stick and Move: your hound can take the Dash action.</description>
+		</sheet>
+	</element>
+	<element name="Arcanine Bite" type="Archetype Feature" source="Sterling Vermin's Pugilist" id="ID_SVAC_ARCHETYPE_FEATURE_PUGILIST_DOG_HOUND_ARCANINE_BITE">
+		<description>
+			<p>At 6th level, your hound’s attacks count as magical for the purpose of overcoming resistance and immunity to non-magical attacks and damage.</p>
+		</description>
+		<sheet>
+			<description>Your hound’s attacks count as magical for overcoming resistance and immunity to non-magical attacks and damage.</description>
+		</sheet>
+	</element>
+	<element name="Coordinated Attack" type="Archetype Feature" source="Sterling Vermin's Pugilist" id="ID_SVAC_ARCHETYPE_FEATURE_PUGILIST_DOG_HOUND_COORDINATED_ATTACK">
+		<description>
+			<p>Also at 6th level, when you use the Attack action on your turn, if your hound can see you, it can use its reaction to make a melee attack.</p>
+		</description>
+		<sheet>
+			<description>When you use the Attack action, if your hound can see you, it can use its reaction to make a melee attack.</description>
+		</sheet>
+	</element>
+	<element name="Hound’s Best Friend" type="Archetype Feature" source="Sterling Vermin's Pugilist" id="ID_SVAC_ARCHETYPE_FEATURE_PUGILIST_DOG_HOUND_HOUNDS_BEST_FRIEND">
+		<description>
+			<p>At 11th level, when a creature deals damage to your hound with an attack, you can use your reaction to make an opportunity attack against that creature if you are within range.</p>
+		</description>
+		<sheet action="Reaction">
+			<description>When a creature damages your hound with an attack, you can use your reaction to make an opportunity attack against it if within range.</description>
+		</sheet>
+	</element>
+	<element name="Dire Hound" type="Archetype Feature" source="Sterling Vermin's Pugilist" id="ID_SVAC_ARCHETYPE_FEATURE_PUGILIST_DOG_HOUND_DIRE_HOUND">
+		<description>
+			<p>Beginning at 17th level, you use the dire wolf statistics instead of the wolf statistics for your hound, except that its size remains Medium. These statistics are modified by Brawler’s Best Friend.</p>
+		</description>
+		<sheet>
+			<description>Your hound uses dire wolf statistics instead of wolf statistics, except its size remains Medium. Apply Brawler’s Best Friend as normal.</description>
+		</sheet>
+	</element>
+	<element name="Bonus Proficiency" type="Archetype Feature" source="Sterling Vermin's Pugilist" id="ID_SVAC_ARCHETYPE_FEATURE_PUGILIST_PISS_VINEGAR_BONUS_PROFICIENCY">
+		<description>
+			<p>Starting when you choose this fight club at 3rd level, you gain proficiency with the Intimidation skill if you do not have it already.</p>
+		</description>
+		<sheet>
+			<description>You gain proficiency in Intimidation.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INTIMIDATION" />
+		</rules>
+	</element>
+	<element name="Salty Salute" type="Archetype Feature" source="Sterling Vermin's Pugilist" id="ID_SVAC_ARCHETYPE_FEATURE_PUGILIST_PISS_VINEGAR_SALTY_SALUTE">
+		<description>
+			<p>Also at 3rd level, you can use a bonus action to provoke a creature within 60 feet who can see or hear you. That creature must make a Wisdom saving throw. On a failure, it takes your Fisticuffs die + your Charisma modifier in psychic damage and has disadvantage on attack rolls that do not include you as a target before the start of your next turn.</p>
+			<p>For your Piss &amp; Vinegar features that require a saving throw, the DC equals 8 + your proficiency bonus + your Charisma modifier.</p>
+		</description>
+		<sheet action="Bonus Action">
+			<description>A creature within 60 ft. that can see or hear you makes a WIS save against DC {{pugilist:piss vinegar:dc}}. On a failure, it takes 1d{{pugilist:fisticuffs:dice}} + CHA psychic damage and has disadvantage on attacks that do not include you before your next turn.</description>
+		</sheet>
+		<rules>
+			<stat name="pugilist:piss vinegar:dc" value="8" />
+			<stat name="pugilist:piss vinegar:dc" value="proficiency" />
+			<stat name="pugilist:piss vinegar:dc" value="charisma:modifier" />
+		</rules>
+	</element>
+	<element name="Dirty Tricks" type="Archetype Feature" source="Sterling Vermin's Pugilist" id="ID_SVAC_ARCHETYPE_FEATURE_PUGILIST_PISS_VINEGAR_DIRTY_TRICKS">
+		<description>
+			<p>Starting at 6th level, you have three dirty tricks: Heelstomper, Low Blow, and Pocket Sand. You can use each dirty trick once, and regain their use when you finish a short or long rest.</p>
+			<p>Heelstomper. When you deal damage with an unarmed attack, the target must make a Dexterity saving throw. On a failure, you gain 1 moxie point up to your maximum, and its speed is halved for 1 minute.</p>
+			<p>Low Blow. When you deal damage with an unarmed attack, the target must make a Strength saving throw. On a failure, you gain 1 moxie point up to your maximum, and it is knocked prone.</p>
+			<p>Pocket Sand. As a bonus action, a creature within 5 feet must make a Constitution saving throw. On a failure, you gain 1 moxie point up to your maximum, and it is blinded until the end of its next turn.</p>
+		</description>
+		<sheet>
+			<description>You know Heelstomper, Low Blow, and Pocket Sand. Each can be used once per short or long rest. Saving throw DC: {{pugilist:piss vinegar:dc}}.</description>
+		</sheet>
+	</element>
+	<element name="Mean Old Cuss" type="Archetype Feature" source="Sterling Vermin's Pugilist" id="ID_SVAC_ARCHETYPE_FEATURE_PUGILIST_PISS_VINEGAR_MEAN_OLD_CUSS">
+		<description>
+			<p>At 11th level, when you make a Charisma (Intimidation) check, you can use your reaction and spend 1 moxie to give yourself advantage. When a creature makes a saving throw against one of your Piss &amp; Vinegar features, you can use your reaction and spend 1 moxie to give that roll disadvantage.</p>
+		</description>
+		<sheet action="Reaction" usage="1 Moxie">
+			<description>Spend 1 moxie as a reaction to gain advantage on a Charisma (Intimidation) check, or to impose disadvantage on a saving throw against one of your Piss &amp; Vinegar features.</description>
+		</sheet>
+	</element>
+	<element name="The Uncouth Art" type="Archetype Feature" source="Sterling Vermin's Pugilist" id="ID_SVAC_ARCHETYPE_FEATURE_PUGILIST_PISS_VINEGAR_THE_UNCOUTH_ART">
+		<description>
+			<p>Starting at 17th level, when you use Salty Salute, you can choose to target a number of creatures within 60 feet who can see or hear you up to your pugilist level instead of a single creature. You gain 1 moxie point, up to your maximum, the first time each creature targeted this way hits you with an attack before the start of your next turn. You can use this feature again after you finish a long rest.</p>
+		</description>
+		<sheet usage="1/Long Rest">
+			<description>When you use Salty Salute, target up to {{level:pugilist}} creatures within 60 ft. You gain 1 moxie point, up to your maximum, the first time each target hits you before your next turn.</description>
+		</sheet>
+	</element>
+	<element name="Groundwork" type="Archetype Feature" source="Sterling Vermin's Pugilist" id="ID_SVAC_ARCHETYPE_FEATURE_PUGILIST_SQUARED_CIRCLE_GROUNDWORK">
+		<description>
+			<p>Starting when you choose this fight club at 3rd level, you gain additional moxie features: Compression Lock, Quick Pin, and To the Mat.</p>
+			<p>Compression Lock. When a creature succeeds on an attempt to break a grapple with you, you can use your reaction and spend 1 moxie point to force it to roll again and use the second result.</p>
+			<p>Quick Pin. When a hostile creature’s movement provokes an opportunity attack from you, you can use your reaction and spend 1 moxie point to make a grapple attack instead.</p>
+			<p>To the Mat. You can use a bonus action and spend 1 moxie point to make a grapple attack against a creature within range. If successful, the creature is also knocked prone.</p>
+		</description>
+		<sheet>
+			<description>You gain Compression Lock, Quick Pin, and To the Mat as additional moxie features.</description>
+		</sheet>
+	</element>
+	<element name="Meat Shield" type="Archetype Feature" source="Sterling Vermin's Pugilist" id="ID_SVAC_ARCHETYPE_FEATURE_PUGILIST_SQUARED_CIRCLE_MEAT_SHIELD">
+		<description>
+			<p>At 6th level, when you have an enemy creature grappled, you gain half cover against all attacks made against you by creatures you are not grappling. When a weapon attack made by a creature you are not grappling misses you, you may use your reaction and spend 1 moxie point to have that creature make the same attack with a new roll against an enemy creature you are grappling.</p>
+		</description>
+		<sheet action="Reaction" usage="1 Moxie">
+			<description>While grappling an enemy, you have half cover against attacks from creatures you are not grappling. When such a creature misses you with a weapon attack, spend 1 moxie as a reaction to redirect the same attack against a creature you are grappling.</description>
+		</sheet>
+	</element>
+	<element name="Heavyweight" type="Archetype Feature" source="Sterling Vermin's Pugilist" id="ID_SVAC_ARCHETYPE_FEATURE_PUGILIST_SQUARED_CIRCLE_HEAVYWEIGHT">
+		<description>
+			<p>At 11th level, you count as one size larger for the purposes of grappling. In addition, you can move your full speed when dragging or carrying a grappled creature your size or smaller.</p>
+		</description>
+		<sheet>
+			<description>You count as one size larger for grappling. You can move your full speed when dragging or carrying a grappled creature your size or smaller.</description>
+		</sheet>
+	</element>
+	<element name="Clean Finish" type="Archetype Feature" source="Sterling Vermin's Pugilist" id="ID_SVAC_ARCHETYPE_FEATURE_PUGILIST_SQUARED_CIRCLE_CLEAN_FINISH">
+		<description>
+			<p>At 17th level, while you have a creature grappled, you gain advantage on all attacks against it. Additionally, when you make an unarmed strike or pugilist weapon attack against a creature you have grappled, you score a critical hit on a roll of 19 or 20.</p>
+		</description>
+		<sheet>
+			<description>While you have a creature grappled, you have advantage on attacks against it. Your unarmed strikes and pugilist weapon attacks against a grappled creature score a critical hit on 19 or 20.</description>
+		</sheet>
+	</element>
+	<element name="Cross Counter" type="Archetype Feature" source="Sterling Vermin's Pugilist" id="ID_SVAC_ARCHETYPE_FEATURE_PUGILIST_SWEET_SCIENCE_CROSS_COUNTER">
+		<description>
+			<p>Starting when you choose this fight club at 3rd level, you can use your reaction and spend 2 moxie points to reduce the damage of a melee weapon attack made against you by 1d10 + your Strength modifier + your pugilist level. If you reduce the damage to 0, you can make an unarmed strike or pugilist weapon attack against a creature within range as part of the same reaction.</p>
+		</description>
+		<sheet action="Reaction" usage="2 Moxie">
+			<description>Reduce melee weapon attack damage by 1d10+{{pugilist:cross counter bonus}}. If this reduces the damage to 0, make an unarmed strike or pugilist weapon attack against a creature within range.</description>
+		</sheet>
+		<rules>
+			<stat name="pugilist:cross counter bonus" value="strength:modifier" />
+			<stat name="pugilist:cross counter bonus" value="level:pugilist" />
+		</rules>
+	</element>
+	<element name="One, Two, Three, Floor" type="Archetype Feature" source="Sterling Vermin's Pugilist" id="ID_SVAC_ARCHETYPE_FEATURE_PUGILIST_SWEET_SCIENCE_ONE_TWO_THREE_FLOOR">
+		<description>
+			<p>At 6th level, when you use your bonus action to use The Old One-Two and hit the same creature with both attacks, you can spend 1 moxie to make an additional unarmed strike against that creature as part of the same bonus action. If you hit, the creature is knocked prone in addition to taking damage.</p>
+		</description>
+		<sheet usage="1 Moxie">
+			<description>When The Old One-Two hits the same creature with both attacks, spend 1 moxie to make one additional unarmed strike against it as part of the same bonus action. On a hit, the target is knocked prone.</description>
+		</sheet>
+	</element>
+	<element name="Float Like a Butterfly, Sting Like a Bee" type="Archetype Feature" source="Sterling Vermin's Pugilist" id="ID_SVAC_ARCHETYPE_FEATURE_PUGILIST_SWEET_SCIENCE_FLOAT_STING">
+		<description>
+			<p>At 11th level, when you reduce damage from an attack to 0 and successfully hit an enemy creature using Cross Counter, you regain 1 moxie point up to your maximum.</p>
+		</description>
+		<sheet>
+			<description>When Cross Counter reduces damage to 0 and you hit with its counterattack, regain 1 moxie point up to your maximum.</description>
+		</sheet>
+	</element>
+	<element name="Knock Out" type="Archetype Feature" source="Sterling Vermin's Pugilist" id="ID_SVAC_ARCHETYPE_FEATURE_PUGILIST_SWEET_SCIENCE_KNOCK_OUT">
+		<description>
+			<p>At 17th level, when you hit with an unarmed strike or pugilist weapon, you can spend 1 or more moxie points to try to knock out the opponent instead of dealing damage. Roll 3d12 + 2d12 for every moxie point spent after the first and add your pugilist level. If the total is equal to or greater than the creature’s remaining hit points, it is unconscious for 10 minutes.</p>
+		</description>
+		<sheet usage="Moxie">
+			<description>When you hit with an unarmed strike or pugilist weapon, spend moxie to knock out instead of dealing damage. Roll 3d12 + 2d12 per moxie spent after the first + {{level:pugilist}}. If the total is at least the target’s remaining hp, it is unconscious for 10 minutes.</description>
+		</sheet>
+	</element>
+</elements>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name></name>
+		<update version="1.0.0">
+			<file name="source.xml" url="https://raw.githubusercontent.com/rmurgasa/Aurora-Builder-Pugilist/main/source.xml" />
+		</update>
+	</info>
+
+	<element name="Sterling Vermin's Pugilist" type="Source" source="Sterling Vermin's Pugilist" id="ID_SVAC_SOURCE_PUGILIST">
+		<description>
+			<![CDATA[<p>A streetfighting class with swagger to spare by Benjamin Huffman / Sterling Vermin Adventuring Co. Includes six Fight Clubs: Arena Royale, Bloodhound Bruisers, Dog &amp; Hound, Piss &amp; Vinegar, The Squared Circle, and The Sweet Science.</p>]]>
+		</description>
+		<setters>
+			<set name="abbreviation">SVAC</set>
+			<set name="url">https://www.dmsguild.com/</set>
+			<set name="image">https://www.dmsguild.com/images/site_resources/DMsGuild_DDLogo.png</set>
+			<set name="author" abbreviation="SVAC" url="https://www.dmsguild.com/">Benjamin Huffman</set>
+			<set name="official">false</set>
+			<set name="supplement">false</set>
+			<set name="homebrew">true</set>
+			<set name="release">20180000</set>
+		</setters>
+	</element>
+</elements>
