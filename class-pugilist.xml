@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Pugilist</name>
-		<update version="1.0.2">
+		<update version="1.0.5">
 			<file name="class-pugilist.xml" url="https://raw.githubusercontent.com/rollingwithchicken/Aurora-Builder-Pugilist/main/class-pugilist.xml" />
 		</update>
 	</info>
@@ -277,10 +277,14 @@
 			<p>Beginning at 1st level, you can use Constitution instead of Dexterity to determine your Armor Class when you are wearing light or no armor and are not using a shield.</p>
 		</description>
 		<sheet>
-			<description>Use Constitution instead of Dexterity to determine your AC while wearing light or no armor and not using a shield. With no armor, your AC is 10 + your CON modifier. With light armor, substitute CON for DEX in the armor calculation. Add this AC manually if Aurora does not calculate it.</description>
+			<description>While wearing no armor and not using a shield, your AC is {{ac:iron chin pugilist}}. The light armor substitution from Iron Chin should be handled manually.</description>
 		</sheet>
 		<rules>
-			<!-- Iron Chin is intentionally not automated in this compatibility build. Add the AC manually if needed: no armor = 10 + CON modifier; light armor = armor base + CON modifier instead of DEX. -->
+			<stat name="ac:iron chin pugilist:base" value="10" />
+			<stat name="ac:iron chin pugilist:constitution" value="constitution:modifier" />
+			<stat name="ac:iron chin pugilist" value="ac:iron chin pugilist:base" />
+			<stat name="ac:iron chin pugilist" value="ac:iron chin pugilist:constitution" />
+			<stat name="ac:calculation" value="ac:iron chin pugilist" bonus="calculation" equipped="[armor:none],[shield:none]" alt="Iron Chin (No Armor)" />
 		</rules>
 	</element>
 	<element name="Moxie" type="Class Feature" source="Sterling Vermin's Pugilist" id="ID_SVAC_CLASS_FEATURE_PUGILIST_MOXIE">

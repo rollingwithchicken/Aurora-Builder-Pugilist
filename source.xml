@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name></name>
-		<update version="1.0.2">
+		<update version="1.0.5">
 			<file name="source.xml" url="https://raw.githubusercontent.com/rollingwithchicken/Aurora-Builder-Pugilist/main/source.xml" />
 		</update>
 	</info>

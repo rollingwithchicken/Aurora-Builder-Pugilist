@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <index>
 	<info>
-		<update version="1.0.2">
+		<update version="1.0.5">
 			<file name="pugilist.index" url="https://raw.githubusercontent.com/rollingwithchicken/Aurora-Builder-Pugilist/main/pugilist.index" />
 		</update>
 	</info>
