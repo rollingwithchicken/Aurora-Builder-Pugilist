@@ -2,8 +2,8 @@
 <elements>
 	<info>
 		<name></name>
-		<update version="1.0.0">
-			<file name="source.xml" url="https://raw.githubusercontent.com/rmurgasa/Aurora-Builder-Pugilist/main/source.xml" />
+		<update version="1.0.2">
+			<file name="source.xml" url="https://raw.githubusercontent.com/rollingwithchicken/Aurora-Builder-Pugilist/main/source.xml" />
 		</update>
 	</info>
 

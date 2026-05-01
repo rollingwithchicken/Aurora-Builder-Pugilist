@@ -2,8 +2,8 @@
 <elements>
 	<info>
 		<name>Pugilist</name>
-		<update version="1.0.0">
-			<file name="class-pugilist.xml" url="https://raw.githubusercontent.com/rmurgasa/Aurora-Builder-Pugilist/main/class-pugilist.xml" />
+		<update version="1.0.2">
+			<file name="class-pugilist.xml" url="https://raw.githubusercontent.com/rollingwithchicken/Aurora-Builder-Pugilist/main/class-pugilist.xml" />
 		</update>
 	</info>
 
@@ -27,8 +27,8 @@
 			<h5 class="caption">PROFICIENCIES</h5>
 			<ul class="unstyled mb">
 				<li><strong>Armor:</strong> Light armor</li>
-				<li><strong>Weapons:</strong> Simple weapons, improvised weapons, whip, hand crossbow</li>
-				<li><strong>Tools:</strong> Your choice of one artisan’s tools, gaming set, or thieves’ tools</li>
+				<li><strong>Weapons:</strong> Simple weapons, improvised weapons, whip, hand crossbow. Compatibility note: some proficiencies may need to be added manually depending on Aurora build.</li>
+				<li><strong>Tools:</strong> Your choice of one artisan’s tools, gaming set, or thieves’ tools. Add this manually if your Aurora build does not prompt for it.</li>
 			</ul>
 			<ul class="unstyled">
 				<li><strong>Saving Throws:</strong> Strength, Constitution</li>
@@ -89,11 +89,10 @@
 		<rules>
 			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" requirements="!ID_SVAC_MULTICLASS_PUGILIST" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_SVAC_MULTICLASS_PUGILIST" />
-			<grant type="Proficiency" id="ID_WOTC_PHB_WEAPON_WHIP" requirements="!ID_SVAC_MULTICLASS_PUGILIST" />
-			<grant type="Proficiency" id="ID_WOTC_PHB_WEAPON_CROSSBOW_HAND" requirements="!ID_SVAC_MULTICLASS_PUGILIST" />
+			<!-- Whip, hand crossbow, and improvised weapon proficiencies are noted in the class text. They are not auto-granted in this compatibility build to avoid unsupported proficiency IDs crashing some Aurora builds. -->
 			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_STRENGTH" requirements="!ID_SVAC_MULTICLASS_PUGILIST" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CONSTITUTION" requirements="!ID_SVAC_MULTICLASS_PUGILIST" />
-			<select type="Proficiency" name="Tool Proficiency (Pugilist)" supports="Artisan tools||Gaming Set||Thieves' Tools" requirements="!ID_SVAC_MULTICLASS_PUGILIST" />
+			<!-- Tool choice is noted in the class text. Some Aurora builds crash on mixed tool category selectors, so this compatibility build leaves the tool proficiency to be added manually. -->
 			<select type="Proficiency" name="Skill Proficiency (Pugilist)" supports="ID_PROFICIENCY_SKILL_ACROBATICS|ID_PROFICIENCY_SKILL_ATHLETICS|ID_PROFICIENCY_SKILL_DECEPTION|ID_PROFICIENCY_SKILL_INTIMIDATION|ID_PROFICIENCY_SKILL_PERCEPTION|ID_PROFICIENCY_SKILL_SLEIGHTOFHAND|ID_PROFICIENCY_SKILL_STEALTH" number="2" requirements="!ID_SVAC_MULTICLASS_PUGILIST" />
 			<grant type="Class Feature" id="ID_SVAC_CLASS_FEATURE_PUGILIST_FISTICUFFS" level="1" />
 			<grant type="Class Feature" id="ID_SVAC_CLASS_FEATURE_PUGILIST_IRON_CHIN" level="1" />
@@ -278,14 +277,10 @@
 			<p>Beginning at 1st level, you can use Constitution instead of Dexterity to determine your Armor Class when you are wearing light or no armor and are not using a shield.</p>
 		</description>
 		<sheet>
-			<description>Use Constitution instead of Dexterity to determine your AC while wearing light or no armor and not using a shield. With no armor, your AC is {{ac:iron chin pugilist}}. With light armor, substitute CON for DEX in the armor calculation.</description>
+			<description>Use Constitution instead of Dexterity to determine your AC while wearing light or no armor and not using a shield. With no armor, your AC is 10 + your CON modifier. With light armor, substitute CON for DEX in the armor calculation. Add this AC manually if Aurora does not calculate it.</description>
 		</sheet>
 		<rules>
-			<stat name="ac:iron chin pugilist:base" value="10" />
-			<stat name="ac:iron chin pugilist:constitution" value="constitution:modifier" />
-			<stat name="ac:iron chin pugilist" value="ac:iron chin pugilist:base" />
-			<stat name="ac:iron chin pugilist" value="ac:iron chin pugilist:constitution" />
-			<stat name="ac:calculation" value="ac:iron chin pugilist" bonus="calculation" equipped="[armor:none],[shield:none]" alt="Iron Chin (No Armor)" />
+			<!-- Iron Chin is intentionally not automated in this compatibility build. Add the AC manually if needed: no armor = 10 + CON modifier; light armor = armor base + CON modifier instead of DEX. -->
 		</rules>
 	</element>
 	<element name="Moxie" type="Class Feature" source="Sterling Vermin's Pugilist" id="ID_SVAC_CLASS_FEATURE_PUGILIST_MOXIE">

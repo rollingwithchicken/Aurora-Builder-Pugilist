@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <index>
 	<info>
-		<update version="1.0.0">
-			<file name="pugilist.index" url="https://raw.githubusercontent.com/rmurgasa/Aurora-Builder-Pugilist/main/pugilist.index" />
+		<update version="1.0.2">
+			<file name="pugilist.index" url="https://raw.githubusercontent.com/rollingwithchicken/Aurora-Builder-Pugilist/main/pugilist.index" />
 		</update>
 	</info>
 	<files>
-		<file name="source.xml" url="https://raw.githubusercontent.com/rmurgasa/Aurora-Builder-Pugilist/main/source.xml" />
-		<file name="class-pugilist.xml" url="https://raw.githubusercontent.com/rmurgasa/Aurora-Builder-Pugilist/main/class-pugilist.xml" />
+		<file name="source.xml" url="https://raw.githubusercontent.com/rollingwithchicken/Aurora-Builder-Pugilist/main/source.xml" />
+		<file name="class-pugilist.xml" url="https://raw.githubusercontent.com/rollingwithchicken/Aurora-Builder-Pugilist/main/class-pugilist.xml" />
 	</files>
 </index>
